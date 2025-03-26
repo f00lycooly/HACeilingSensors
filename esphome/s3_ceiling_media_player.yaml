@@ -1,0 +1,10 @@
+packages:
+  device_base: !include common/.s3_poe_base.yaml
+  bh1750: !include common/.bh1750.yaml
+  bmp280: !include common/.bmp280.yaml
+  ld2410: !include common/.ld2410.yaml
+  media_player: !include common/.media_player.yaml
+
+substitutions:
+  node_name: s3_ceiling_media_player_poc
+  friendly_name: Ceiling Mount Media Player POC
