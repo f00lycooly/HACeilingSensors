@@ -1,9 +1,9 @@
 i2s_audio:
   - id: i2s_in
     i2s_lrclk_pin: GPIO16
-    i2s_bclk_pin: GPI17
+    i2s_bclk_pin: GPIO17
   - id: i2s_out
-    i2s_lrclk_pin: GPI18
+    i2s_lrclk_pin: GPIO18
     i2s_bclk_pin: GPIO21
 
 media_player:
